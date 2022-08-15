@@ -11,8 +11,8 @@ const ProductAll = () => {
 	const getProducts = async () => {
 		let searchQuery = query.get("q") || "";
 		console.log("searchQuery:",searchQuery);
-		let response = await fetch(url);
 		let url = `https://my-json-server.typicode.com/imchaewon/shoppingmall/products?q=${searchQuery}`;
+		let response = await fetch(url);
 		let data = await response.json();
 		setProductList(data);
 		// console.log(data);
