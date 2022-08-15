@@ -1,0 +1,12 @@
+.login-button{display: flex;margin-right: 20px;justify-content: flex-end;}
+.navSection{display: flex;justify-content: center;}
+.menuList{display: flex;list-style-type: none;}
+.menuList li{padding:10px;}
+.menuArea{display: flex;justify-content: center;}
+
+.container img{width: 100%;}
+.login-button{cursor: pointer;}
+
+.productImg{display: flex;justify-content: flex-end;}
+.selectMenu{margin-top: 10px;}
+.btnAdd{width: 100%;margin-top: 20px;}
